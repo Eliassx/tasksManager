@@ -1,0 +1,26 @@
+.taskDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+}
+
+.taskHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.taskHeader button {
+  background: transparent;
+  border: transparent;
+  color: oklch(0.968 0.007 247.896);
+  cursor: pointer;
+}
+
+.taskContent {
+  background-color: oklch(0.929 0.013 255.508);
+  padding: 18px;
+  border-radius: 6px;
+  color: oklch(0.446 0.043 257.281);
+}

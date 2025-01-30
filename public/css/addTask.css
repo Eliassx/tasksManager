@@ -1,0 +1,34 @@
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  background-color: oklch(0.929 0.013 255.508);
+  padding: 25px;
+  border-radius: 6px;
+}
+
+.form input,
+.form button {
+  width: 100%;
+  font-family: "Poppins", serif;
+  font-size: 16px;
+  border-radius: 6px;
+}
+
+.form input {
+  padding: 10px;
+  border: 1px solid oklch(0.869 0.022 252.894);
+  outline: 1px oklch(0.704 0.04 256.788);
+}
+
+.form button {
+  background-color: oklch(0.554 0.046 257.417);
+  padding: 10px;
+  font-size: 18px;
+  color: #fff;
+  border: transparent;
+  cursor: pointer;
+}
