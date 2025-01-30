@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 import "./App.css";
-import Task from "./components/task";
+import Task from "./components/Task";
 import AddTask from "./components/AddTask";
 import Title from "./components/Title";
 
